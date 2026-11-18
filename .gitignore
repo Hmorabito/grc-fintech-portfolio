@@ -1,0 +1,17 @@
+# Personal study notes (Spanish). Remove this line if you want to publish them too.
+_estudio/
+
+# Never commit secrets
+.env
+*.pem
+*.key
+.aws/
+credentials
+**/prowler-output/raw/
+
+# OS / editor / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/

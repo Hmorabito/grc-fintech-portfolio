@@ -1,0 +1,4 @@
+risk_id,title,asset,threat,vulnerability,likelihood,impact,treatment,owner,status
+R-001,Unauthorized access to customer database,Customer database,External attacker using stolen credentials,No MFA on admin accounts,4,5,Mitigate,CISO,Open
+R-002,Payment API outage,Payments API,Cloud provider failure or misconfiguration,Single-region deployment,2,5,Mitigate,Engineering Lead,Open
+R-003,Third-party processor breach exposes customer data,Customer PII,Compromise at a vendor,No vendor security review process,3,4,Mitigate,Head of Operations,Open

@@ -1,0 +1,5 @@
+control_id,control_name,description,nist_csf,iso_27001,soc2,owner,status,evidence
+MP-AC-01,Multi-factor authentication,MFA is required for all administrative and remote access,PR.AA-03,A.8.5,CC6.1,CISO,Partial,IdP MFA enforcement report
+MP-AC-02,Access reviews,User access to critical systems is reviewed quarterly,PR.AA-05,A.5.18,CC6.2,Head of Operations,Planned,
+MP-IR-01,Incident response plan,A documented plan defines roles and steps for security incidents,RS.MA-01,A.5.24;A.5.26,CC7.4,CISO,Implemented,Approved IR policy and tabletop notes
+MP-VM-01,Vendor risk assessment,Critical vendors are assessed before onboarding and annually,GV.SC-06,A.5.19;A.5.22,CC9.2,Head of Operations,Not implemented,
