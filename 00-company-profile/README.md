@@ -30,4 +30,5 @@ Every compliance program starts with scope: what does the company do, what data 
 - Contractual requirements: card networks (Visa, Mastercard) and payment processors require PCI DSS compliance; large merchants may require proof of security (such as a SOC 2 report) before signing.
 
 ## Out of scope
-Anything intentionally excluded and why.
+- Regulation of countries other than Argentina: one law analyzed in depth is enough to demonstrate the method; repeating it for five more adds time, not skill.
+- Physical office security: the company's data and systems are hosted in the cloud (AWS, Google Workspace, Salesforce), not in office servers.
