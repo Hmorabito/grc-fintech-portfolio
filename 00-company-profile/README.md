@@ -25,7 +25,7 @@ Every compliance program starts with scope: what does the company do, what data 
 | Internal tools (email, HR, CRM) |Day-to-day operations | SaaS |Medium|
 
 ## Applicable obligations
-- Frameworks the company wants to be assessed against (SOC 2, ISO 27001, PCI DSS if card data is handled):
+- Frameworks: PCI DSS (first priority), because Meridian Pay handles tokenized card numbers and processes card payments.
 - Local financial/data-protection regulation to be aware of:
 - Customer or partner contractual requirements:
 
