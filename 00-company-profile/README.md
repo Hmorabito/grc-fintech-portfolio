@@ -26,8 +26,8 @@ Every compliance program starts with scope: what does the company do, what data 
 
 ## Applicable obligations
 - Frameworks: PCI DSS (first priority), because Meridian Pay handles tokenized card numbers and processes card payments.
-- Local financial/data-protection regulation to be aware of:
-- Customer or partner contractual requirements:
+- Local regulation: Ley 25.326, because Meridian Pay handles full names and national ID numbers of customers in Argentina.
+- Contractual requirements: card networks (Visa, Mastercard) and payment processors require PCI DSS compliance; large merchants may require proof of security (such as a SOC 2 report) before signing.
 
 ## Out of scope
 Anything intentionally excluded and why.
